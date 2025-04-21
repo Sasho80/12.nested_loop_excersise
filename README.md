@@ -66,6 +66,22 @@ Input   Output
 100115  There is no way out.
 100120
 
+03. Sums of prime and non-prime numbers
+Write a program that reads integers from the console until the "stop" command is received. Find the sum of all entered prime numbers and the sum of all entered non-prime numbers. Since by definition in mathematics negative numbers cannot be prime, if a negative number is given as input, the following message "Number is negative." should be output. In this case, the entered number is ignored and is not added to either of the two sums, and the program continues its execution, waiting for the next number to be entered.
+On the output, print the two found sums on two lines in the following format:
+• "Sum of all prime numbers is: {prime numbers sum}"
+• "Sum of all non prime numbers is: {nonprime numbers sum}"
+Sample input and output                     
+Input   Output                               Explanations
+3       Sum of all prime numbers is: 29      The first number entered is 3. It is prime and we add it to the sum of 
+9       Sum of all non prime numbers is: 13  prime numbers.
+0                                            The next number is 9. It is not prime and we add it to the sum of 
+7                                            prime numbers.
+19                                           The number 0 is not prime and we add it to the sum of prime 
+4                                            numbers. The sum becomes 9+0=9.
+stop	                                      Next comes the number 4, which is not prime and we add it to the corresponding sum 9+4=13.
+                                             We receive a stop command. The program stops its execution and we print both sums.
+
 
 
 
