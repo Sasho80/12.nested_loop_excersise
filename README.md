@@ -96,6 +96,39 @@ Input   Output
 0       Sum of all non prime numbers is: 0
 stop	
 
+04. Train the Trainers
+The "Train the trainers" course is coming to an end and the final assessment is approaching. Your task is to help the jury, which will assess the presentations, by writing a program that calculates the average grade for each presentation given by a given student, and finally - the average grade for all of them.
+The first line of the console reads the number of people in the jury, n - an integer.
+Then, on a separate line, the name of the presentation - text is read.
+For each presentation, n - the number of grades - a real number are read on a new line.
+After calculating the average grade for a specific presentation, the console prints:
+"{presentation name} - {average grade}."
+After receiving the "Finish" command, the console prints "Student's final assessment is {average grade for all presentations}." and the program ends.
+All grades must be formatted to the second decimal place.
+Sample input and output
+Input         Output                               Explanations
+2      	While-Loop - 5.75.                   2 – the number of people in the jury, therefore we will receive 2 
+While-Loop    For-Loop - 5.75.                     marks per presentation.
+6.00          Student's final assessment is 5.75.  (6.00 + 5.50) / 2 = 5.75
+5.50                                               (5.84 + 5.66) / 2 = 5.75
+For-Loop                                           (6.00 + 5.50 + 5.84 + 5.66) / 4 = 5.75 
+5.84
+5.66
+Finish
+
+Input         Output  
+3             Arrays - 4.92.
+Arrays        Lists - 5.75.
+4.53          Student's final assessment is 5.34.
+5.23
+5.00
+Lists
+5.83
+6.00
+5.42
+Finish	
+
+
 
 
 
