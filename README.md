@@ -82,6 +82,23 @@ Input   Output                               Explanations
 stop	                                      Next comes the number 4, which is not prime and we add it to the corresponding sum 9+4=13.
                                              We receive a stop command. The program stops its execution and we print both sums.
 
+Input   Output  
+30      Number is negative.
+83      Sum of all prime numbers is: 83
+33      Sum of all non prime numbers is: 83
+-1
+20
+stop	
+
+Input   Output 
+0       Number is negative.
+-9      Sum of all prime numbers is: 0
+0       Sum of all non prime numbers is: 0
+stop	
+
+
+
+
 
 
 
