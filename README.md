@@ -128,6 +128,22 @@ Lists
 5.42
 Finish	
 
+Input                  Output 
+2                      Objects and Classes - 5.00.
+Objects and Classes    Dictionaries - 4.82.
+5.77                   RegEx - 3.15.
+4.23                   Student's final assessment is 4.32.
+Dictionaries
+4.62
+5.02
+RegEx
+2.88
+3.42
+Finish	
+
+
+
+
 
 
 
